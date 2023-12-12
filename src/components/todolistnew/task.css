@@ -1,0 +1,79 @@
+.task-list-container {
+  padding: 60px;
+}
+
+.task-input-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #e3eaf2;
+}
+
+.task-input {
+  flex-grow: 2;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #a3b8cc;
+  background-color: white;
+}
+
+.input-edit-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.add-task-button {
+  background-color: blue;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  margin: 1.25rem;
+}
+
+.add-task-button:hover {
+  background-color: #454ea0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: #e3eaf2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task label {
+  margin: 5x;
+  color: #333;
+}
+
+.task-title-completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task button {
+  background-color: #48bb78;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  margin: 1.25rem;
+}
+
+.task button:hover {
+  background-color: red;
+}
+
+.task-list-header {
+  margin: 20px;
+}
